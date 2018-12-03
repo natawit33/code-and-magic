@@ -1,7 +1,7 @@
 # Учебный проект «Код и Магия» [![Build status][travis-image]][travis-url]
 
 * Студент: [Анна](https://up.htmlacademy.ru/javascript/15/user/776573).
-* Наставник: `Неизвестно`.
+* Наставник: `Лопатин Андрей`.
 
 ---
 
