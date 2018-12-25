@@ -56,7 +56,7 @@ window.renderStatistics = function(ctx, names, times) {
     }
     
     renderRect(ctx, CLOUD_X+BAR_GAP + (BAR_GAP+barWidth)*i, CLOUD_HEIGHT-BAR_HEIGHT+(BAR_HEIGHT-(BAR_HEIGHT*times[i]/maxTime))-30, barWidth, BAR_HEIGHT*times[i]/maxTime, color);
-    ctx.fillText(names[i], 100, CLOUD_HEIGHT-CLOUD_Y);
+    ctx.fillText(names[i], CLOUD_X+BAR_GAP + (BAR_GAP+barWidth)*i, CLOUD_HEIGHT-CLOUD_Y);
 }
 };
 
